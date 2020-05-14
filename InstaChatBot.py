@@ -3,7 +3,7 @@
 from selenium import webdriver
 #from selenium.webdriver.chrome.options import Options #if you want to run Chrome Headless
 from login_details import login
-from commands import chat
+from response import chat
 from time import sleep
 import datetime
 from random import choice
