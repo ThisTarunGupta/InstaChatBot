@@ -5,6 +5,8 @@ An automated Instagram Chat Bot
    * selenium
 ```pip3 install --user selenium```   
 
+   * install Chrome Webdriver
+
 #### Process:
    * Edit *login_details.py* file
    * run **InstaChatBot.py** file
