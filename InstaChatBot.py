@@ -24,7 +24,9 @@ class InstaChatBot:
             #opens browser
             #self.driver = webdriver.Chrome(options=chrome_options) if using headless
             
-            self.driver = webdriver.Chrome()
+            #self.driver = webdriver.Chrome(DRIVER_EXEC_PATH_DOWNLOADED)
+            
+            self.driver = webdriver.Chrome() #only for linux
             self.driver.get('https://www.instagram.com/')
             self.driver.implicitly_wait(10)
 
