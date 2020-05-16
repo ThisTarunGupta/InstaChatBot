@@ -9,5 +9,6 @@ An automated Instagram Chat Bot
 
 #### Process:
    * Edit *login_details.py* file
+   * Edit *response.py* file
    * run **InstaChatBot.py** file
 ```python3 InstaChatBot.py```
